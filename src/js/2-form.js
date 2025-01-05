@@ -53,55 +53,55 @@ document.addEventListener('DOMContentLoaded', loadFormData);
 
 
 
-const style = document.createElement('style');
-style.innerHTML = `
-  .feedback-form {
-    width: 360px;
-    padding: 24px;
-    background-color: #fff;
-    border-radius: 8px;
-    font-family: 'Montserrat', sans-serif;
-  }
+// const style = document.createElement('style');
+// style.innerHTML = `
+//   .feedback-form {
+//     width: 360px;
+//     padding: 24px;
+//     background-color: #fff;
+//     border-radius: 8px;
+//     font-family: 'Montserrat', sans-serif;
+//   }
 
-  .form-label {
-    display: block;
-    margin-bottom: 16px;
-    font-size: 16px;
-    color: #333;
-  }
+//   .form-label {
+//     display: block;
+//     margin-bottom: 16px;
+//     font-size: 16px;
+//     color: #333;
+//   }
 
-  .form-input,
-  .form-textarea {
-    width: 100%;
-    height: 40px;
-    margin-top: 8px;
-    padding: 8px 12px;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    color: #333;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
+//   .form-input,
+//   .form-textarea {
+//     width: 100%;
+//     height: 40px;
+//     margin-top: 8px;
+//     padding: 8px 12px;
+//     font-size: 16px;
+//     font-family: 'Montserrat', sans-serif;
+//     color: #333;
+//     border: 1px solid #ccc;
+//     border-radius: 4px;
+//     box-sizing: border-box;
+//   }
 
-  .form-textarea {
-    height: auto;
-  }
+//   .form-textarea {
+//     height: auto;
+//   }
 
-  .form-btn {
-    width: 86px;
-    height: 40px;
-    margin-top: 16px;
-    background-color: #4e75ff;
-    color: #fff;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer; 
-  }
-`;
+//   .form-btn {
+//     width: 86px;
+//     height: 40px;
+//     margin-top: 16px;
+//     background-color: #4e75ff;
+//     color: #fff;
+//     font-size: 16px;
+//     font-family: 'Montserrat', sans-serif;
+//     border: none;
+//     border-radius: 4px;
+//     cursor: pointer; 
+//   }
+// `;
 
-document.head.appendChild(style);
+// document.head.appendChild(style);
 
 
